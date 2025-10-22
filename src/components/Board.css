@@ -1,0 +1,9 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  gap: 12px;
+  width: 100%;
+  max-width: 520px;
+  margin: 24px auto;
+  padding: 8px;
+}
